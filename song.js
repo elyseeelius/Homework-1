@@ -14,7 +14,7 @@ var songName = "Como río en primavera";
 
 // This variable contents an object
 var artist = {
-    name: "Marcela Gandala",
+    artistName: "Marcela Gandala",
     placeOfBirth:"Ciudad Juarez, Mexico",
     age: 35,
     married:true
@@ -31,3 +31,14 @@ var spanish = 'true';
 
 // This variable ia about array
 var otherSongs =['Supe que me amaba', 'Pensaba en ti', 'Dame tu ojos', 'Vine adorarte']
+
+// Output the values in the console
+
+console.log(songName);
+console.log(artist);
+console.log(genre);
+console.log(album);
+console.log(durationInSeconds);
+console.log(released);
+console.log (spanish);
+console.log(otherSongs);
